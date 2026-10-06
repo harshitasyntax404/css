@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+
+}
+.body{
+    height:100vh;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    width: 1200px;
+   
+}
+.g{
+    width: 1400px;
+   margin-left: 700px;
+    
+}
+
+.justify-content-center {
+    justify-content:center;
+}
+
+.justify-content-start {
+    justify-content:start;
+}
+.justify-content-end {
+    justify-content:end;
+}
+.justify-content-around {
+    justify-content:space-around;
+}
+
+.justify-content-between {
+    justify-content:space-between;
+}
+.justify-content-evenly {
+    justify-content:space-evenly;
+}
+.align-items-center{
+    align-items: center;
+}
+.header-left-btn{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 25px;
+    padding: 8px;
+    border: 1px solid rgb(69, 68, 68);  
+}
+.header-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header-left p,
+.ri-search-line{
+    color:gray;
+}
+.top-header{
+    background-color:#dbdbdb;
+    border-radius: 8px;
+}
+.secnd-sec-right{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    color: gray;
+    margin-left: 10px;
+    width: 150px;
+}
+.secnd-sec{
+    margin:20px;
+}
+.product-box{
+    border: 1px solid gray;
+    padding: 10px;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sale{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.dis{
+    background-color: rgb(101, 202, 101);
+    color: white;
+    padding: 5px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.product-box p{
+    color: gray;
+}
+.ri-star-fill{
+    color: orange;
+}
+.product-box button{
+    background-color: rgb(101, 202, 101);
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 70px;
+    border-radius: 5px;
+    font-weight: bold;
+   
+}
